@@ -22,3 +22,11 @@
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
+
+<h2> Your Events </h2>
+
+<ul>
+    <%= render @events.user %>
+</ul>
+
+
